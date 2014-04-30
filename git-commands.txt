@@ -1,0 +1,10 @@
+Git Commands
+————————————
+git remote -v (This shows your repo’s alias’)
+
+
+git add . || git add —all (Adds changes ready for commit)
+git commit -m “Describe changes made here..” (Commits changes ready for rebase)
+git fetch origin (Brings down remote repo)
+git rebase origin (Merges changes, looking for conflicts)
+git push origin (pushes merged changed to repo)
