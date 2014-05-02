@@ -3,7 +3,7 @@ Git Commands
 git remote -v (This shows your repo’s alias’)
 
 
-git add . || git add —all (Adds changes ready for commit)
+git add . || git add --all (Adds changes ready for commit)
 git commit -m “Describe changes made here..” (Commits changes ready for rebase)
 git fetch upstream (Brings down remote repo)
 git rebase upstream (Merges changes, looking for conflicts)
