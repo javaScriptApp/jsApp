@@ -6,5 +6,10 @@ git remote -v (This shows your repo’s alias’)
 git add . || git add --all (Adds changes ready for commit)
 git commit -m “Describe changes made here..” (Commits changes ready for rebase)
 git fetch upstream (Brings down remote repo)
+<<<<<<< HEAD
 git rebase upstream/master (Merges changes, looking for conflicts)
 git push origin (pushes merged changed to repo)
+=======
+git rebase upstream (Merges changes, looking for conflicts)
+git push origin (pushes merged changed to repo)
+>>>>>>> 903034865f2758a9e79a11f238c0b0ccb2733d48
